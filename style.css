@@ -1,1 +1,6 @@
 p, li{color:blue;font-size: 20px;}
+.caja-roja {background-color: red;color: white;}
+.caja-amarilla {background-color: rgb(251, 255, 0);color: rgb(10, 12, 173);}
+.caja-fucsia {background-color: rgb(255, 0, 128);color: white;}
+#veintiunico {background-color: orange;}
+nav ul li div a {color:rgb(0, 195, 255);}
