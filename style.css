@@ -6,3 +6,9 @@ p, li{color:blue;font-size: 20px;}
 nav ul li div a {color:rgb(0, 195, 255);}
 img {display: block;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;} 
 img {display: block;user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;}
+body {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
