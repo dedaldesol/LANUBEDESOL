@@ -1,14 +1,25 @@
-p, li{color:blue;font-size: 20px;}
-.caja-roja {background-color: red;color: white;}
-.caja-amarilla {background-color: rgb(251, 255, 0);color: rgb(10, 12, 173);}
-.caja-fucsia {background-color: rgb(255, 0, 128);color: white;}
+/*
+paleta de colores
+https://coolors.co/palette/d8f3dc-b7e4c7-95d5b2-74c69d-52b788-40916c-2d6a4f-1b4332-081c15
+https://coolors.co/1b4332
+https://coolors.co/52b788
+https://coolors.co/081c15
+
+*/
+header {color:#1b4332;}
+h1 {color: #52b788}
+p {color: #081c15;font-size: 20px;}
+nav ul {color:#1b4332;}
+body {
+    font-family: "Glass Antiqua", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    text-transform: uppercase;
+  }
+
+.caja-roja {background-color:#1b4332 ;color: white;}
 #veintiunico {background-color: orange;}
 nav ul li div a {color:rgb(0, 195, 255);}
 img {display: block;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;} 
 img {display: block;user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;}
-body {
-    font-family: "Poiret One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
