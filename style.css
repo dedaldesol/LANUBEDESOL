@@ -6,16 +6,21 @@ https://coolors.co/52b788
 https://coolors.co/081c15
 https://ecoalf.com/en-int
 */
-header {color:#1b4332;}
-h1 {color: #52b788}
+header {color:#1b4332;padding: 1rem 0;text-align: center;}
+h1 {color: #52b788; font-size: 3rem;}
 p {color: #081c15;font-size: 20px;}
-nav ul {color:#1b4332;}
+nav ul {color:#1b4332;list-style: none;line-height: 1.5;}
+nav ul li a {color:#1b4332; text-decoration: none;font-weight: bold;}
+nav ul li a:hover {text-decoration: underline;}
+
 body {
     font-family: "Glass Antiqua", cursive;
     font-weight: 400;
     font-style: normal;
-    text-align: justify;
+    text-align: center;
     text-transform: uppercase;
+    line-height: 1.6;
+    background-color: #f9f9f9;
   }
 
 .caja-roja {background-color:#1b4332 ;color: white;}
