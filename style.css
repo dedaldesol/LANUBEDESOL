@@ -7,7 +7,7 @@ https://coolors.co/081c15
 https://ecoalf.com/en-int
 */
 header {color:#1b4332;padding: 1rem 0;text-align: center;}
-h1 {color: #52b788; font-size: 3rem;}
+h1 {color: #52b788; font-size: 2rem;}
 p {color: #081c15;font-size: 20px;}
 nav ul {color:#1b4332;list-style: none;line-height: 1.5;}
 nav ul li a {color:#1b4332; text-decoration: none;font-weight: bold;}
@@ -22,7 +22,64 @@ body {
     line-height: 1.6;
     background-color: #f9f9f9;
   }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+.search-bar input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+}
+.search-bar button {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.contenedor-galeria {
+  display: grid;
+  place-items: center;
+  width: 150px;
+}
 
+.galeria {
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 400px;
+}
+
+.contenedor-imagen {
+  position: relative;
+  left: 0;
+  width: 80px;
+  border-radius: 5px;
+  height: 150px;
+  overflow: hidden;
+  background-color: #efefef;
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 5px 12px rgb(0, 0, 0, 0.5);
+  flex: 0.25;
+}
+
+.contenedor-imagen img {
+  height: 150px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.contenedor-imagen:hover {
+  flex: 2;
+  cursor: pointer;
+  border-radius: 8px;
+}
 .caja-roja {background-color:#1b4332 ;color: white;}
 #veintiunico {background-color: orange;}
 nav ul li div a {color:rgb(0, 195, 255);}
