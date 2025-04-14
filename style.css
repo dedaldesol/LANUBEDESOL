@@ -43,7 +43,7 @@ body {
     margin-left: 5px;
 }
 .contenedor-galeria {
-  display: grid;
+  display: flex;
   place-items: center;
   width: 150px;
 }
