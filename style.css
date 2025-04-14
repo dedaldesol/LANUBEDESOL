@@ -43,14 +43,13 @@ body {
     margin-left: 5px;
 }
 .contenedor-galeria {
-  display: flex;
+  display: grid;
   place-items: center;
   width: 150px;
 }
 
 .galeria {
   display: flex;
-  overflow: auto;
   flex-wrap: wrap;
   gap: 5px;
   max-width: 400px;
