@@ -14,13 +14,14 @@ nav ul li a {color:#1b4332; text-decoration: none;font-weight: bold;}
 nav ul li a:hover {text-decoration: underline;}
 
 body {
-    font-family: "Glass Antiqua", cursive;
+    font-family: "Glass Antiqua", cursive; color:#1b4332 ;
     font-weight: 400;
     font-style: normal;
     text-align: center;
     text-transform: uppercase;
     line-height: 1.6;
     background-color: #f9f9f9;
+    
   }
 header {
     display: flex;
@@ -52,35 +53,37 @@ section iframe {
   border-radius: 8px; /* Opcional: redondea las esquinas */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: agrega
   una sombra */ }
+
+/* Mi galeria con boton para pasar las imagenes */
 .contenedor-galeria {
-  display: grid;
+  display: flex;
   place-items: center;
-  width: 150px;
+  width: 545px; 
 }
 
 .galeria {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  max-width: 400px;
+  gap: 20px;
+  max-width: 545px;
 }
 
 .contenedor-imagen {
   position: relative;
   left: 0;
-  width: 80px;
+  width: 545px;
   border-radius: 5px;
-  height: 150px;
+  height: 410px;
   overflow: hidden;
-  background-color: #efefef;
+  background-color:#1b4332; 
   transition: 0.4s ease-in-out;
   box-shadow: 0 5px 12px rgb(0, 0, 0, 0.5);
   flex: 0.25;
 }
 
 .contenedor-imagen img {
-  height: 150px;
-  width: 100px;
+  height: 410px;
+  width: 545px;
   object-fit: cover;
 }
 
@@ -92,3 +95,25 @@ section iframe {
 .caja-roja {background-color:#1b4332 ;color: white;}
 footer {background-color:#52b788;}
 nav ul li div a {color:rgb(0, 195, 255);}
+
+/* Estilo para el botón interactivo */
+button#show-message {
+  background-color:#1b4332;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  /* Estilo para el botón interactivo */
+button#show-message:hover {
+  background-color: #52b788;
+  }
+  /* Estilo para el mensaje dinámico */
+  #dynamic-message {
+  display: none; /* Oculto por defecto */
+  margin-top: 1rem;
+  color: #52b788;
+  font-weight: bold; }
