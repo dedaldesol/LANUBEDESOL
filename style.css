@@ -9,9 +9,14 @@ https://ecoalf.com/en-int
 header {color:#1b4332;padding: 1rem 0;text-align: center;}
 h1 {color: #52b788; font-size: 2rem;}
 p {color: #081c15;font-size: 20px;}
+ul {list-style: none;}
 nav ul {color:#1b4332;list-style: none;line-height: 1.5;}
 nav ul li a {color:#1b4332; text-decoration: none;font-weight: bold;}
 nav ul li a:hover {text-decoration: underline;}
+nav ul li div a {color:rgb(0, 195, 255);}
+.caja-roja {background-color:#1b4332 ;color: white;}
+.caja-verde {background-color:#1b4332 ;color: white;}
+footer {background-color:#52b788;}
 
 body {
     font-family: "Glass Antiqua", cursive; color:#1b4332 ;
@@ -92,9 +97,6 @@ section iframe {
   cursor: pointer;
   border-radius: 8px;
 }
-.caja-roja {background-color:#1b4332 ;color: white;}
-footer {background-color:#52b788;}
-nav ul li div a {color:rgb(0, 195, 255);}
 
 /* Estilo para el botón interactivo */
 button#show-message {
