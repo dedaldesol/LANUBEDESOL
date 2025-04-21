@@ -1,14 +1,14 @@
-.resume {$darkest-blue: #1a237e; $darker-blue: #283593; $dark-blue: #303f9f;
-$medium-blue: #3949ab;
-$light-blue: #3f51b5;
-$lighter-blue: #5c6bc0;
-$lightest-blue: #9fa8da;
-$white: #ffffff;
-$black: #0e1442;
-$orange: #ffb300;
-$yellow: #fdd835;
-$dark-pink: #ad1457;
-$light-pink: #d81b60;}
+.resume {darkest-blue: #1a237e; darker-blue: #283593; dark-blue: #303f9f;
+medium-blue: #3949ab;
+light-blue: #3f51b5;
+lighter-blue: #5c6bc0;
+lightest-blue: #9fa8da;
+white: #ffffff;
+black: #0e1442;
+orange: #ffb300;
+yellow: #fdd835;
+dark-pink: #ad1457;
+light-pink: #d81b60;}
 
 @charset "UTF-8";
 * {
@@ -32,7 +32,7 @@ body {
   padding: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background: $white;
+  background: white;
   cursor: default;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -40,7 +40,7 @@ body {
 
 a {
   text-decoration: none;
-  color: $white;
+  color: white;
   display: block;
   transition-duration: 0.3s;
 }
@@ -54,7 +54,7 @@ h2 {
 }
 
 h3 {
-  color: $orange;
+  color: orange;
   margin: 10px 0;
   text-transform: lowercase;
   font-size: 1.25em;
@@ -62,10 +62,10 @@ h3 {
 
 .resume {
   width: 960px;
-  background: $darkest-blue;
-  color: $white;
+  background: darkest-blue;
+  color: white;
   margin: 20px auto;
-  box-shadow: 10px 10px $black;
+  box-shadow: 10px 10px black;
   position: relative;
   display: flex;
 }
@@ -85,11 +85,11 @@ h3 {
 .resume .base {
   width: 30%;
   padding: 30px 15px;
-  background: $darker-blue;
-  color: $white;
+  background: darker-blue;
+  color: white;
 }
 .resume .base .profile {
-  background: $orange;
+  background: orange;
   padding: 30px 15px 40px 15px;
   margin: -30px -15px 45px -15px;
   position: relative;
@@ -98,7 +98,7 @@ h3 {
 .resume .base .profile::after {
   content: "";
   position: absolute;
-  background: $dark-blue;
+  background: dark-blue;
   width: 100%;
   height: 30px;
   bottom: -15px;
@@ -119,40 +119,40 @@ h3 {
   font-size: 100px;
   text-align: center;
   margin: auto;
-  color: $darker-blue;
+  color: darker-blue;
 }
 .resume .base .profile .info {
   text-align: center;
-  color: $white;
+  color: white;
 }
 .resume .base .profile .info .name {
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 1.75em;
   text-transform: lowercase;
-  color: $darkest-blue;
+  color: darkest-blue;
 }
 .resume .base .profile .info .job {
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 1.5em;
   text-transform: lowercase;
-  color: $darker-blue;
+  color: darker-blue;
 }
 .resume .base .contact div {
   line-height: 24px;
 }
 .resume .base .contact div a:hover {
-  color: $yellow;
+  color: yellow;
 }
 .resume .base .contact div a:hover span::after {
   width: 100%;
 }
 .resume .base .contact div:hover i {
-  color: $yellow;
+  color: yellow;
 }
 .resume .base .contact div i {
-  color: $orange;
+  color: orange;
   width: 20px;
   height: 20px;
   font-size: 20px;
@@ -166,7 +166,7 @@ h3 {
 .resume .base .contact div span::after {
   content: "";
   position: absolute;
-  background: $yellow;
+  background: yellow;
   height: 1px;
   width: 0;
   bottom: 0;
@@ -182,7 +182,7 @@ h3 {
   vertical-align: text-bottom;
 }
 .resume .base .follow .box a:hover i {
-  background: $yellow;
+  background: yellow;
   border-radius: 5px;
   transform: rotate(45deg) scale(0.8);
 }
@@ -192,12 +192,12 @@ h3 {
 .resume .base .follow .box i {
   display: inline-block;
   font-size: 30px;
-  background: $orange;
+  background: orange;
   width: 60px;
   height: 60px;
   border-radius: 50%;
   line-height: 60px;
-  color: $darker-blue;
+  color: darker-blue;
   margin: 0 10px 10px 10px;
   transition-duration: 0.3s;
 }
@@ -225,8 +225,8 @@ h3 {
   margin-top: 0;
 }
 .resume .func h3 i {
-  color: $darker-blue;
-  background: $orange;
+  color: darker-blue;
+  background: orange;
   width: 42px;
   height: 42px;
   font-size: 20px;
@@ -259,11 +259,11 @@ h3 {
 }
 .resume .func .work ul li:hover span,
 .resume .func .edu ul li:hover span {
-  color: $yellow;
+  color: yellow;
 }
 @keyframes circle {
   from {
-    box-shadow: 0 0 0 0px $yellow;
+    box-shadow: 0 0 0 0px yellow;
   }
   to {
     box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
@@ -295,8 +295,8 @@ h3 {
 .resume .func .edu ul li::before {
   width: 7px;
   height: 7px;
-  border: 3px solid $white;
-  background: $orange;
+  border: 3px solid white;
+  background: orange;
   border-radius: 50%;
   left: 3px;
   z-index: 1;
@@ -315,18 +315,18 @@ h3 {
 }
 .resume .func .work {
   width: 48%;
-  background: $darker-blue;
+  background: darker-blue;
   padding: 15px;
   margin: 0 4% 15px 0;
 }
 .resume .func .edu {
   width: 48%;
-  background: $darker-blue;
+  background: darker-blue;
   padding: 15px;
 }
 .resume .func .skills-prog {
   clear: both;
-  background: $darker-blue;
+  background: darker-blue;
   padding: 15px;
 }
 .resume .func .skills-prog ul {
@@ -339,18 +339,18 @@ h3 {
   transition-duration: 0.3s;
 }
 .resume .func .skills-prog ul li:hover {
-  color: $yellow;
+  color: yellow;
 }
 .resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: $yellow;
-  box-shadow: 0 0 0 1px $yellow;
+  background: yellow;
+  box-shadow: 0 0 0 1px yellow;
 }
 .resume .func .skills-prog ul li span {
   display: block;
   width: 120px;
 }
 .resume .func .skills-prog ul li .skills-bar {
-  background: $white;
+  background: white;
   height: 2px;
   width: calc(100% - 120px);
   position: relative;
@@ -360,7 +360,7 @@ h3 {
   position: absolute;
   top: -1px;
   height: 4px;
-  background: $orange;
+  background: orange;
   box-shadow: 0 0 0 $orange;
   border-radius: 5px;
 }
@@ -379,7 +379,7 @@ h3 {
   position: relative;
 }
 .resume .func .skills-soft ul li:hover svg .cbar {
-  stroke: $yellow;
+  stroke: yellow;
   stroke-width: 4px;
 }
 .resume .func .skills-soft ul li:hover span,
@@ -393,11 +393,11 @@ h3 {
 }
 .resume .func .skills-soft ul li svg circle {
   stroke-width: 1px;
-  stroke: $white;
+  stroke: white;
 }
 .resume .func .skills-soft ul li svg .cbar {
   stroke-width: 3px;
-  stroke: $orange;
+  stroke: orange;
   stroke-linecap: round;
 }
 .resume .func .skills-soft ul li span,
@@ -412,7 +412,7 @@ h3 {
   top: 40%;
 }
 .resume .func .interests {
-  background: $darker-blue;
+  background: darker-blue;
   margin: 15px 0 0;
   padding: 15px;
 }
@@ -437,7 +437,7 @@ h3 {
   transform: scale(1.2);
 }
 .resume .func .interests-items div:hover span {
-  color: $yellow;
+  color: yellow;
   transition-duration: 0.3s;
 }
 .resume .func .interests-items div i {
@@ -445,7 +445,7 @@ h3 {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  color: $orange;
+  color: orange;
   transition-duration: 0.3s;
 }
 .resume .func .interests-items div span {
